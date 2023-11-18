@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const validation = require('./routes/productRoutes');
+const validation = require('../routes/productRoutes');
 
 //middleware
 app.use(express.json());
